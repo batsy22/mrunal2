@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif; /* Clean font */
+    background-color: #ffeef8; /* Very light pink background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('couple-background.jpg'); /* Add a romantic background image */
+    background-size: cover;
+}
+
+header {
+    background-color: #ff6f91; /* Light pink header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 5px solid #ff4f81; /* Slightly darker pink border */
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.message {
+    margin-bottom: 30px;
+    background-color: #ffb3d9; /* Light pink background for message */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ff4f81; /* Darker pink border around images */
+}
+
+.upload {
+    margin: 20px 0;
+    background-color: #ffb3d9; /* Light pink background for upload section */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ff4f81; /* Medium pink button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff2b5c; /* Darker pink on hover */
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #ff6f91; /* Light pink footer */
+    color: white;
+    padding: 10px 0;
+}
+
+.animated-image {
+    width: 100px; /* Set the width of the animated PNG */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Add some space around the image */
+}
